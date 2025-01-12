@@ -17,7 +17,7 @@ from task4 import are_compatible
 
 def test_task4_compatible() -> None:
     """
-    Write a test that creates three cards with these features:
+    Write a test that creates four cards with these features:
 
     Card 1: {"color": "red", "shape": "circle", "number": "3"}
     Card 2: {"color": "red", "shape": "square", "number": "1"}
