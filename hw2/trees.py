@@ -61,16 +61,24 @@ class RGBExpression(ABC):
 
     @abstractmethod
     def is_const(self) -> bool:
+        """ Returns True if the node is a constant, False otherwise. """
         raise NotImplementedError
 
     @abstractmethod
     def num_nodes(self) -> int:
+        """ Return the number of nodes in this tree."""
         raise NotImplementedError
 
     @abstractmethod
     def eval(self) -> tuple[int, int, int]:
+        """
+        Evaluate the expression tree and return the resulting color value.
+
+        Returns: a (red, green, blue) tuple representing the color value
+        """
         raise NotImplementedError
 
     @abstractmethod
     def __str__(self) -> str:
+        """ Return a string representation of the expression tree. """
         raise NotImplementedError
