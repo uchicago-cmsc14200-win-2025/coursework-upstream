@@ -1,0 +1,1 @@
+{"M": 2, "N": 2, "grid": [[{"name": "A", "out_edges": {"C": 7, "D": 5}}, {"name": "B", "out_edges": {"D": 2, "C": 7}}], [{"name": "C", "out_edges": {"A": 7, "D": 9, "B": 7}}, {"name": "D", "out_edges": {"C": 9, "A": 5, "B": 2}}]]}
