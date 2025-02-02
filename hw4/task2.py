@@ -22,7 +22,8 @@ def get_path_distance(graph: GridGraph, path: str) -> int | None:
         graph: Grid Graph
         path: String representation of the path in the grid graph e.g. "ABCDE"
 
-    Returns: Distance of the path in the grid graph if valid else -1
+    Returns: Distance of the path in the grid graph if valid. Otherwise,
+             returns None
     """
     # YOUR CODE GOES HERE
     raise NotImplementedError
